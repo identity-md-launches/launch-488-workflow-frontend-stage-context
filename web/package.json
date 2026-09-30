@@ -1,0 +1,28 @@
+{
+  "name": "milestone-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build && node scripts/export.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "playwright test --config tests/playwright.config.ts",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "viem": "2.38.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "22.18.8",
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "@vitejs/plugin-react": "5.0.4",
+    "typescript": "5.9.3",
+    "vite": "7.1.12"
+  }
+}

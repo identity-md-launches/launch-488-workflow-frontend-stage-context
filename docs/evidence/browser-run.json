@@ -1,0 +1,93 @@
+{
+  "reportedAt": "2026-09-30T00:53:31.229385+00:00",
+  "authority": "Worker self-reported validation; not independent certification",
+  "command": "cd web && PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/home/imd-worker/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome npm test",
+  "result": {
+    "exitCode": 0,
+    "passed": 38,
+    "failed": 0,
+    "durationSeconds": 30.9,
+    "browserInteractionTests": 23,
+    "deploymentEncodingTests": 5,
+    "serviceIntegrationTests": 10,
+    "runSource": "Final aggregate run executed by root agent; exit 0 and 38 passes observed in its tool output."
+  },
+  "browser": {
+    "engine": "Chromium",
+    "version": "145.0.7632.6",
+    "driver": "@playwright/test 1.56.1",
+    "headless": true,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 768,
+        "height": 1000
+      },
+      {
+        "width": 320,
+        "height": 1000
+      },
+      {
+        "width": 320,
+        "height": 900
+      }
+    ]
+  },
+  "serving": {
+    "entrypoint": "http://127.0.0.1:43187/site/",
+    "mode": "Static export at gateway-style subpath; no rewrites; bounded Playwright-owned foreground server"
+  },
+  "deployment": {
+    "sourceCommit": "5ec21faf39d6147238907ea54bd313d31f928200",
+    "manifestSha256": "d22dae9d83238b53d974827e4179ce79b2b736937917aa09f1205384386a75f6",
+    "assets": [
+      {
+        "path": "abi/LaunchToken.json",
+        "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+      },
+      {
+        "path": "abi/MilestoneEscrow.json",
+        "sha256": "457ba193fbcf398615142a6d58d54e61a10f0846eb96298f9d06283243119f83"
+      },
+      {
+        "path": "assets/ccip-DlLCdZpp.js",
+        "sha256": "72ee8c93a3c0fbd89ba8818db4d3a2e5e72f303c8db29f10b2c68601d5cff607"
+      },
+      {
+        "path": "assets/index-BhBA0TcG.css",
+        "sha256": "d0e3c4efdcb9622495904820a81d225cabe93ee9a4274c3ffe04d64cafcd1b9c"
+      },
+      {
+        "path": "assets/index-CCMqxQMn.js",
+        "sha256": "873f9e4e81df3db3367bf7528d796a2ea1a9709115c4f6de8fa84beba8c01e07"
+      },
+      {
+        "path": "index.html",
+        "sha256": "2d08dea938ad3fbe81506eb774b03c4e0e3b1f3d4f0369cd1c919e6d1935fa16"
+      },
+      {
+        "path": "mark.svg",
+        "sha256": "65e4d1ab3f7977f9206aa8fe450a5ddc74248896c4759ec5a3f4e9c7c3421523"
+      }
+    ]
+  },
+  "rpcAndWallet": "Mocked EIP-1193 wallet and all public JSON-RPC endpoints from exported runtime network configuration; no live transactions or signatures",
+  "renderedContrast": {
+    "pairs": 8,
+    "minimumRatio": 4.777
+  },
+  "screenshots": [
+    "keyboard-focus.png",
+    "mobile-open-form.png",
+    "mobile-open-viewport.png",
+    "mobile-swap-form.png",
+    "mobile-swap-viewport.png",
+    "mobile-viewport.png",
+    "mocked-1440.png",
+    "mocked-320.png",
+    "mocked-768.png"
+  ]
+}

@@ -1,0 +1,8 @@
+# Frontend generated dependencies and caches, at every nesting level.
+**/node_modules/
+**/.npm/
+**/.cache/
+**/.vite/
+**/test-results/
+**/playwright-report/
+**/*.tsbuildinfo

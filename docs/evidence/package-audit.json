@@ -1,0 +1,16 @@
+{
+  "tracked_baseline_files": 58,
+  "submission_tree_files": 114,
+  "submission_tree_raw_bytes": 3050420,
+  "complete_candidate_git_bundle_bytes": 1512526,
+  "bundle_verified": true,
+  "bundle_note": "Size measured in an isolated scratch Git clone with full source history and all deliverable files. The final audit metadata update is excluded from that candidate. The scratch clone/bundle is not a deliverable and does not change the read-only main checkout.",
+  "export_bytes": 531987,
+  "export_files": 8,
+  "dependency_or_cache_files_in_submission": [],
+  "out_of_scope_new_paths": [],
+  "submodule_entries": 0,
+  "protected_tracked_changes": [],
+  "manifest_sha256": "d22dae9d83238b53d974827e4179ce79b2b736937917aa09f1205384386a75f6",
+  "git_commit_attempt": "Blocked: main-checkout .git is read-only; git add could not create .git/index.lock. Source/export are present in the working tree."
+}

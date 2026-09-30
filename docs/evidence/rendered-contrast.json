@@ -1,0 +1,213 @@
+{
+  "method": "Computed rendered sRGB foreground and recursively composited solid background; WCAG relative luminance; selected enabled text pairs only",
+  "pairs": [
+    {
+      "name": "Body heading on page",
+      "selector": ".section-heading h2",
+      "foreground": [
+        36,
+        59,
+        48
+      ],
+      "background": [
+        246,
+        247,
+        242
+      ],
+      "ratio": 11.189,
+      "fontSize": "23.2px",
+      "fontWeight": "600",
+      "layers": [
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    },
+    {
+      "name": "Muted body on page",
+      "selector": ".hero-description",
+      "foreground": [
+        96,
+        107,
+        99
+      ],
+      "background": [
+        246,
+        247,
+        242
+      ],
+      "ratio": 5.159,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "layers": [
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    },
+    {
+      "name": "Muted body on side card",
+      "selector": ".side-card > p",
+      "foreground": [
+        96,
+        107,
+        99
+      ],
+      "background": [
+        234,
+        240,
+        226
+      ],
+      "ratio": 4.777,
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "layers": [
+        {
+          "element": "div.side-card",
+          "color": "rgb(234, 240, 226)"
+        },
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    },
+    {
+      "name": "Primary action",
+      "selector": ".section-heading .primary",
+      "foreground": [
+        36,
+        59,
+        48
+      ],
+      "background": [
+        217,
+        243,
+        145
+      ],
+      "ratio": 9.855,
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "layers": [
+        {
+          "element": "button.primary",
+          "color": "rgb(217, 243, 145)"
+        },
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    },
+    {
+      "name": "Dark action",
+      "selector": ".wallet-tools .dark",
+      "foreground": [
+        255,
+        255,
+        255
+      ],
+      "background": [
+        36,
+        59,
+        48
+      ],
+      "ratio": 12.046,
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "layers": [
+        {
+          "element": "button.dark",
+          "color": "rgb(36, 59, 48)"
+        },
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    },
+    {
+      "name": "Inverse flow heading",
+      "selector": ".flow strong",
+      "foreground": [
+        255,
+        255,
+        255
+      ],
+      "background": [
+        36,
+        59,
+        48
+      ],
+      "ratio": 12.046,
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "layers": [
+        {
+          "element": "div.flow-card",
+          "color": "rgb(36, 59, 48)"
+        },
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    },
+    {
+      "name": "Inverse flow description",
+      "selector": ".flow small",
+      "foreground": [
+        214,
+        223,
+        215
+      ],
+      "background": [
+        36,
+        59,
+        48
+      ],
+      "ratio": 8.831,
+      "fontSize": "10.56px",
+      "fontWeight": "400",
+      "layers": [
+        {
+          "element": "div.flow-card",
+          "color": "rgb(36, 59, 48)"
+        },
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    },
+    {
+      "name": "Error message",
+      "selector": ".notice.error",
+      "foreground": [
+        165,
+        47,
+        47
+      ],
+      "background": [
+        255,
+        240,
+        237
+      ],
+      "ratio": 6.215,
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "layers": [
+        {
+          "element": "div.notice error",
+          "color": "rgb(255, 240, 237)"
+        },
+        {
+          "element": "html.",
+          "color": "rgb(246, 247, 242)"
+        }
+      ]
+    }
+  ]
+}

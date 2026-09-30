@@ -1,0 +1,17 @@
+[
+  {
+    "viewport": 1440,
+    "document": 1440,
+    "body": 1440
+  },
+  {
+    "viewport": 768,
+    "document": 768,
+    "body": 768
+  },
+  {
+    "viewport": 320,
+    "document": 320,
+    "body": 320
+  }
+]

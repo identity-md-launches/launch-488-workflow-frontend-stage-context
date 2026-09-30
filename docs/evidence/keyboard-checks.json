@@ -1,0 +1,25 @@
+{
+  "browser": "145.0.7632.6",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "focused": {
+    "outlineStyle": "solid",
+    "outlineWidth": "3px",
+    "outlineColor": "rgb(40, 93, 156)",
+    "top": 12,
+    "left": 20
+  },
+  "sequence": [
+    "Tab: skip link",
+    "Enter: workspace",
+    "Tab: Escrows",
+    "Tab: Open escrow",
+    "Enter: open form"
+  ],
+  "reducedMotion": {
+    "transitionDuration": "0s",
+    "animationName": "none"
+  }
+}
